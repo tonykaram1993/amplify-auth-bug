@@ -8,12 +8,12 @@ import AWsAuthTest from "./AWSAuthTest";
 const Routes = () => {
   return (
     <Switch>
-      <Redirect exact from="/" to="/contact-us" />
+      <Redirect exact from="/" to="/home" />
 
       <Route render={() => <AWsAuthTest />} exact path="/test" />
-      <Route render={() => <AnotherPage />} exact path="/contact-us" />
+      <Route render={() => <AnotherPage />} exact path="/home" />
 
-      <Redirect to="/contact-us" />
+      <Redirect to="/home" />
     </Switch>
   );
 };
