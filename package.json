@@ -1,0 +1,39 @@
+{
+  "name": "the-drum-path",
+  "version": "0.1.0",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.18",
+    "aws-amplify": "^3.0.24",
+    "aws-amplify-react": "^4.1.23",
+    "history": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "surge:dev": "surge ./build --domain the-drum-path.surge.sh"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "fslightbox-react": "^1.5.0",
+    "surge": "^0.21.6"
+  }
+}
